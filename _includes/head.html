@@ -3,9 +3,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>{% if page.use-site-title %} Formulas-in-formulas{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>Formulas in Formulas</title>
 
-  <meta name="author" content="Luan-Cenci, Formulas-in-formulas" />
+  <meta name="author" content="Luan-Cenci" />
 
   {% if page.subtitle %}
   <meta name="description" content="FORMULAS IN FORMULAS">
@@ -23,7 +23,7 @@
 
   {% if layout.common-css %}
     {% for css in layout.common-css %}
-      <link rel="stylesheet" href="../css/bootstrap.css" />
+      <link rel="stylesheet" href="css/bootstrap.css" />
     {% endfor %}
   {% endif %}
 
@@ -41,7 +41,7 @@
 
   {% if page.css %}
     {% for css in page.css %}
-      <link rel="stylesheet" href="{{ css | prepend: site.baseurl | replace: '//', '/' }}" />
+      <link rel="stylesheet" href="" />
     {% endfor %}
   {% endif %}
 
