@@ -23,7 +23,7 @@ description: A virtual proof that name is awesome!
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "Sobre Mim"
+  About Me: "aboutme"
   Resources:
     - Beautiful Jekyll: "https://www.facebook.com/luan.cenci"
     - Learn markdown: "http://www.markdowntutorial.com/"
