@@ -1,7 +1,7 @@
 {% if include.css.sri %}
-  <link href="{{ include.css.href }}" rel="stylesheet" integrity="{{ include.css.sri }}" crossorigin="anonymous">
+  <link href="//formulas-in-formulas/css/bootstrap-theme.css" rel="stylesheet" integrity="//formulas-in-formulas/css/bootstrap-theme.css.sri" crossorigin="anonymous">
 {% elsif include.css.href %}
-  <link rel="stylesheet" href="{{ include.css.href }}" />
+  <link rel="stylesheet" href="//formulas-in-formulas/css/bootstrap.css" />
 {% else %}
-  <link rel="stylesheet" href="{{ include.css }}" />
+  <link rel="stylesheet" href="//formulas-in-formulas/css/bootstrap.min.css" />
 {% endif %}
