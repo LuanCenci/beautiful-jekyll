@@ -25,7 +25,7 @@ description: A virtual proof that name is awesome!
 navbar-links:
   About Me: "Sobre Mim"
   Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+    - Beautiful Jekyll: "https://www.facebook.com/luan.cenci"
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://pages.github.com/"
   Author's home: "https://www.facebook.com/luan.cenci"
@@ -112,13 +112,13 @@ title-separator: "-"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
-markdown: kramdown
+timezone: "Brasil/Brasilia"
+markdown: Rmarkdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
 
-kramdown:
+Rmarkdown:
   input: GFM
 
 # Default YAML values (more information on Jekyll's site)
@@ -135,8 +135,8 @@ defaults:
     scope:
       path: "" # all files
     values:
-      layout: "page"
-      show-avatar: true
+      layout: "minimal"
+      show-avatar: false
 
 # Use tags pages (not recommended if you are deploying via GitHub pages, only set to true if deploying locally with ruby)
 link-tags: false
